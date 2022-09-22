@@ -60,3 +60,4 @@ crashlytics-build.properties
 
 # Extra stuff
 *.log
+**/com.unity.learn.iet-framework/
