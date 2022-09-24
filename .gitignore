@@ -61,3 +61,4 @@ crashlytics-build.properties
 
 # Extra stuff
 *.log
+*.vsconfig
