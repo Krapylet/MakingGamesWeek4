@@ -72,5 +72,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4810912518991602695, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: TurnInputName
+      value: P2Horizontal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810912518991602695, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: BrakeButtonName
+      value: P2Brake
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810912518991602695, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: AccelerateButtonName
+      value: P2Accelerate
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19954de30401f73428254541a9ad156e, type: 3}
