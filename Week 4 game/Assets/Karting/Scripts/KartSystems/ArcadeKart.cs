@@ -282,6 +282,7 @@ namespace KartGame.KartSystems
 
         void FixedUpdate()
         {
+            print(Rigidbody.velocity);
             UpdateSuspensionParams(FrontLeftWheel);
             UpdateSuspensionParams(FrontRightWheel);
             UpdateSuspensionParams(RearLeftWheel);
