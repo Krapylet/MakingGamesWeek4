@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RevealNearby : MonoBehaviour
 {
+    [SerializeField] private Material revealed;
     [SerializeField] private string checkAgainst = "Red";
     [SerializeField] private float radius = 10f;
 
@@ -14,9 +15,10 @@ public class RevealNearby : MonoBehaviour
         {
             if (hit.transform.CompareTag(checkAgainst))
             {
-                var material = hit.transform.GetComponent<MeshRenderer>().material;
-                material.SetFloat("_Visible", -1f);
-                material.SetColor("_Color", Color.green);
+                hit.transform.GetComponent<MeshRenderer>().material = revealed;
+                // var material = hit.transform.GetComponent<MeshRenderer>().material;
+                // material.SetFloat("_Visible", -1f);
+                // material.SetColor("_Color", Color.green);
             }
         }
     }

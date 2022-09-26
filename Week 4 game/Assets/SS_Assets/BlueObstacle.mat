@@ -50,7 +50,7 @@ Material:
     m_Floats:
     - _Cutoff_Height: 1
     - _Dissolve: 250
-    - _Edge_Width: 0.05
+    - _Edge_Width: -2.07
     - _NearnessFactor: 5
     - _Noise_Scale: 50
     - _Noise_Strength: 1
@@ -59,9 +59,9 @@ Material:
     - _Revealed: 0
     - _ScrollingSpeed: 0.1
     - _Test_Dist: 1.59
-    - _Visible: 0.8
+    - _Visible: -0.23
     m_Colors:
     - _Burn: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0, g: 0.055066347, b: 1, a: 1}
-    - _Player: {r: 12.812104, g: 0.27574345, b: 48.41839, a: 0}
+    - _Player: {r: 2.473341, g: 0.2757435, b: 55.753883, a: 0}
   m_BuildTextureStacks: []
