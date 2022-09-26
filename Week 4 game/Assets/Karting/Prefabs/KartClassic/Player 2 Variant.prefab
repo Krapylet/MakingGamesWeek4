@@ -170,4 +170,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   revealed: {fileID: 2100000, guid: a429d339d20a9084ba05e19d7892ed2b, type: 2}
   checkAgainst: Blue
-  radius: 10
+  radius: 5
