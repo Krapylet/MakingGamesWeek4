@@ -63,5 +63,5 @@ Material:
     m_Colors:
     - _Burn: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0, g: 0.055066347, b: 1, a: 1}
-    - _Player: {r: -45.060287, g: 2.4101639, b: -65.28638, a: 0}
+    - _Player: {r: -69.19457, g: 0.025742725, b: 69.99983, a: 0}
   m_BuildTextureStacks: []
