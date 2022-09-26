@@ -9,14 +9,17 @@ using UnityEngine.Rendering;
 
 public class SpeedMotionBlur : MonoBehaviour
 {
-
-    public ArcadeKart kart;
-    public Volume volume;
+    public float hyperspeedThreshold;
+    private ArcadeKart kart;
+    public VolumeProfile slowVolume;
+    public VolumeProfile fastVolume;
+    public CinemachineVolumeSettings volumeSettings;
 
     private float maxSpeed;
 
-    private void Start()
+    private void Awake()
     {
+        kart = gameObject.GetComponent<ArcadeKart>();
         maxSpeed = kart.baseStats.TopSpeed;
     }
 
@@ -27,6 +30,22 @@ public class SpeedMotionBlur : MonoBehaviour
         float currentSpeed = kart.Rigidbody.velocity.magnitude;
         float currentSpeedPercentage = currentSpeed / maxSpeed;
 
-        volume.weight = currentSpeedPercentage;
+        print(currentSpeedPercentage + " < " + hyperspeedThreshold + " = " + (currentSpeedPercentage < hyperspeedThreshold));
+        if (currentSpeedPercentage < hyperspeedThreshold)
+        {
+            volumeSettings.InvalidateCachedProfile();
+            print("Slow");
+            volumeSettings.m_Profile = slowVolume;
+            volumeSettings.InvalidateCachedProfile();
+        }
+        else
+        {
+            volumeSettings.InvalidateCachedProfile();
+            print("Fast");
+            volumeSettings.m_Profile = fastVolume;
+            volumeSettings.InvalidateCachedProfile();
+        }
+
+
     }
 }
