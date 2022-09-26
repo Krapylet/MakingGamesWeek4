@@ -50,7 +50,7 @@ Material:
     m_Colors:
     - _Burn: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 0, b: 0.02849722, a: 1}
-    - _Player: {r: 19.447086, g: 0.27574438, b: 3.6277313, a: 0}
+    - _Player: {r: 16.904766, g: 0.2757436, b: 4.0401335, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7309866950173751640
 MonoBehaviour:
