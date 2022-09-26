@@ -136,7 +136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4525378571179096706}
   - component: {fileID: 5057808943537941149}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: CM vcam1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -699,6 +699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629713576798580773, guid: cba6236a3ca88a54081cc989c4f0c08a,
+        type: 3}
+      propertyPath: radius
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5629713576798580773, guid: cba6236a3ca88a54081cc989c4f0c08a,
         type: 3}
