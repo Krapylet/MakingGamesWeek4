@@ -147,5 +147,27 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2034601e47a70b94db1e4f408498b053, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6260778843581417123, guid: 96b004c552f1f3b4db5c7119401a813c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 96b004c552f1f3b4db5c7119401a813c, type: 3}
+--- !u!1 &3207679344279568512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6571747595072928794, guid: 96b004c552f1f3b4db5c7119401a813c,
+    type: 3}
+  m_PrefabInstance: {fileID: 8624532650066787482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1760174818553825522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3207679344279568512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8550a20c0d5493478312d2a76e65ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  revealed: {fileID: 2100000, guid: a429d339d20a9084ba05e19d7892ed2b, type: 2}
+  checkAgainst: Blue
+  radius: 10
