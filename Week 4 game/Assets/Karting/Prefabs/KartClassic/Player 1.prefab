@@ -150,7 +150,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2205396990110889024}
-  m_LocalRotation: {x: 0.11174453, y: 0.000000004274655, z: -4.8067983e-10, w: 0.993737}
+  m_LocalRotation: {x: 0.11174452, y: -0.000000004274654, z: 4.8067966e-10, w: 0.993737}
   m_LocalPosition: {x: 0, y: 1.62, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.6530612, y: 1}
+    m_SensorSize: {x: 1, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -256,7 +256,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6470860518194145257}
-  m_LocalRotation: {x: 0.11174453, y: 0.000000004274655, z: -4.8067983e-10, w: 0.993737}
+  m_LocalRotation: {x: 0.11174452, y: -0.000000004274654, z: 4.8067966e-10, w: 0.993737}
   m_LocalPosition: {x: 0, y: 1.62, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -295,7 +295,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 65335
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -415,7 +415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6380060352460746843}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
