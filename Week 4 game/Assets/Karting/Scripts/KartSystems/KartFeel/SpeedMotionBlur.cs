@@ -3,29 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using KartGame.KartSystems;
 using Cinemachine.PostFX;
-//using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering;
+
 
 public class SpeedMotionBlur : MonoBehaviour
 {
 
     public ArcadeKart kart;
-    public CinemachineVolumeSettings volume;
-    public CinemachinePostProcessing Processing;
- 
+    public Volume volume;
 
     private float maxSpeed;
 
     private void Start()
     {
-        maxSpeed = kart.GetMaxSpeed();
+        maxSpeed = kart.baseStats.TopSpeed;
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Calculate motion blur intensity
         float currentSpeed = kart.Rigidbody.velocity.magnitude;
         float currentSpeedPercentage = currentSpeed / maxSpeed;
-        //Processing.m_Profile. ???
-        //volume.m_Profile;
+
+        volume.weight = currentSpeedPercentage;
     }
 }
